@@ -1,5 +1,6 @@
 from itertools import product
 
+
 def find_twelve(num_list1, num_list2, num_list3):
     """Находит все комбинации чисел из трех списков,
     в сумме дающие 12"""
@@ -9,6 +10,7 @@ def find_twelve(num_list1, num_list2, num_list3):
             for num3 in num_list3:
                 if num1 + num2 + num3 == 12:
                     return num1, num2, num3
+
 
 def find_twelve2(num_list1, num_list2, num_list3):
     for n1, n2, n3 in product(num_list1, num_list2, num_list3):
