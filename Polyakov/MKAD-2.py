@@ -4,6 +4,8 @@ def solution(length_of_mkad, speed, riding_time):
     sMM = length_of_mkad + sM
     solve = sMM % length_of_mkad
     return solve
+
+
 speed = int(input())
 riding_time = int(input())
 length_of_mkad = 109
