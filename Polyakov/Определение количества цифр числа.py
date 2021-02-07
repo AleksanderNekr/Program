@@ -11,3 +11,10 @@ i = input()
 length = len(str(i))
 print(length)
 print('End of the program')
+
+# 3 способ
+word = str(input())
+count = 0
+for i in word:
+    count += 1
+print(count)
