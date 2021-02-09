@@ -1,1 +1,1 @@
-print(2,3,4, end=' ')
+print(2, 3, 4, end=' ')
