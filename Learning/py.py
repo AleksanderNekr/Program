@@ -3,6 +3,7 @@ b = int(43)
 x = int(input())
 
 print('Результат:', a + b)
+
 print('a', 'b', 'c', sep=':')
 
 print('a', 'b', 'c', sep='\n')
