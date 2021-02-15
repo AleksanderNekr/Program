@@ -13,10 +13,10 @@ for x, y, z, w in product(range(2), range(2), range(2), range(2)):
 #     if n == 60:
 #         print(s1, '!OOOO!')
 name = 'ТИМОФЕЙ'
-count = 0
+counter = 0
 for a, b, c, d, e in product(name, name, name, name, name):
     worder = a + b + c + d + e
-    if (worder.сount('Т') >= 1) and (worder.сount('Й') <= 1):
-        count += 1
+    if (worder.count('Т') >= 1) and (worder.сount('Й') <= 1):
+        counter += 1
         print(worder)
-print(count)
+print(counter)
