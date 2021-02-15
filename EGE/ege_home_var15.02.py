@@ -18,5 +18,5 @@ for a, b, c, d, e in product(name, name, name, name, name):
     wor = a + b + c + d + e
     if wor.count('Т') >= 1 and wor.count('Й') <= 1:
         counter += 1
-        print(wor)
+        # print(wor)
 print(counter)
