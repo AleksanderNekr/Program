@@ -90,7 +90,6 @@ def IfCountOfDelMore17(number):
             count += 1
             if count > 17:
                 return True
-                break
     return False
 
 
