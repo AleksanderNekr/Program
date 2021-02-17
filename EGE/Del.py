@@ -3,7 +3,7 @@ def Del(x, D):
 
 
 def f(x):
-    return (not(Del(x, A))) <= ((Del(x, 6)) <= (not(Del(x, 9)))) 
+    return (not(Del(x, A))) <= ((Del(x, 6)) <= (not(Del(x, 9))))
 
 
 for A in range(1, 1000):
