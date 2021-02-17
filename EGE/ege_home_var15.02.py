@@ -53,7 +53,7 @@ def number_system(num):
     return ans
 
 
-for x in range(1, 10000):
-    if (number_system((7 ** 15) + (7 ** 3) - 1 - x)).count('6') == 12:
+for x in range(10000):
+    if number_system(7 ** 15 + 7 ** 3 - 1 - x).count('6') == 12:
         print(x)
         break
