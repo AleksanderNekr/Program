@@ -1,8 +1,10 @@
 def Del(x, D):
     return(x % D == 0)
 
+
 def f(x):
     return (not(Del(x, A))) <= ((Del(x, 6)) <= (not(Del(x, 9)))) 
+
 
 for A in range(1, 1000):
     if_del = True

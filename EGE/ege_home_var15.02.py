@@ -44,16 +44,25 @@ import string
 # print(d(a))
 
 
-def number_system(num):
-    ans = ''
-    strin = '0123456789' + string.ascii_uppercase
-    while num > 0:
-        num, index = divmod(num, 7)
-        ans = strin[index] + ans
-    return ans
+# def number_system(num):
+#     ans = ''
+#     strin = '0123456789' + string.ascii_uppercase
+#     while num > 0:
+#         num, index = divmod(num, 7)
+#         ans = strin[index] + ans
+#     return ans
 
 
-for x in range(10000):
-    if number_system(7 ** 15 + 7 ** 3 - 1 - x).count('6') == 12:
-        print(x)
-        break
+# for x in range(10000):
+#     if number_system(7 ** 15 + 7 ** 3 - 1 - x).count('6') == 12:
+#         print(x)
+#         break
+
+for A in range(1, 1001):
+    count = 0
+    for x in range(1, 1001):
+        if 70 % A == 0:
+            if x % 28 != 0 or x % A == 0 or x % 21 != 0:
+                count += 1
+    if count == 1000:
+        print(A)
