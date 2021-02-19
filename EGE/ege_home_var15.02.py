@@ -102,3 +102,17 @@ import string
 #             ans = i
 
 # print(count, ans)
+
+for x1 in range(1000):
+    m = 0
+    s = 0
+    x = x1
+    while x > 0:
+        d = x % 8
+        s += d
+        if d > m:
+            m = d
+        x = x // 8
+    if m == 5 and s == 12:
+        print(x1)
+        break
