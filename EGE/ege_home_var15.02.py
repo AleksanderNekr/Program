@@ -58,47 +58,47 @@ import string
 #         print(x)
 #         break
 
-for A in range(1, 1001):
-    count = 0
-    for x in range(1, 1001):
-        if 70 % A == 0:
-            if x % 28 != 0 or x % A == 0 or x % 21 != 0:
-                count += 1
-    if count == 1000:
-        print(A)
+# for A in range(1, 1001):
+#     count = 0
+#     for x in range(1, 1001):
+#         if 70 % A == 0:
+#             if x % 28 != 0 or x % A == 0 or x % 21 != 0:
+#                 count += 1
+#     if count == 1000:
+#         print(A)
 
 
-def F(n):
-    if n == 0:
-        return 0
-    if n > 0 and n % 2 == 0:
-        return F(n / 2)
-    if n % 2 != 0:
-        return 1 + F(n - 1)
+# def F(n):
+#     if n == 0:
+#         return 0
+#     if n > 0 and n % 2 == 0:
+#         return F(n / 2)
+#     if n % 2 != 0:
+#         return 1 + F(n - 1)
 
 
-for n in range(10000):
-    if F(n) == 12:
-        print(n)
-        break
+# for n in range(10000):
+#     if F(n) == 12:
+#         print(n)
+#         break
 
 
-def IfCountOfDelMore17(number):
-    count = 0
-    for i in range(1, number + 1):
-        if number % i == 0:
-            count += 1
-            if count > 17:
-                return True
-    return False
+# def IfCountOfDelMore17(number):
+#     count = 0
+#     for i in range(1, number + 1):
+#         if number % i == 0:
+#             count += 1
+#             if count > 17:
+#                 return True
+#     return False
 
 
-count = 0
-ans = 0
-for i in range(10001, 50001):
-    if IfCountOfDelMore17(i):
-        count += 1
-        if count == 1:
-            ans = i
+# count = 0
+# ans = 0
+# for i in range(10001, 50001):
+#     if IfCountOfDelMore17(i):
+#         count += 1
+#         if count == 1:
+#             ans = i
 
-print(count, ans)
+# print(count, ans)
