@@ -1,6 +1,9 @@
+import string
+
+
 # сама программа
 def d(n, b):
-    d.t = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+    d.t = string.digits + string.ascii_uppercase
     r = ''
     while n:
         n, y = divmod(n, b)
