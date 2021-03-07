@@ -23,3 +23,4 @@ while 1 > 0:
         pyautogui.press(' ')
     pyautogui.hotkey('enter')
     cheker += 16
+    print('whoami')
