@@ -14,3 +14,4 @@ for A in range(1, 1000):
             break
     if if_del:
         print(A)
+        print('Hello there you are')
