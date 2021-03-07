@@ -3,5 +3,7 @@ def factorial(n):
     for i in range(2, n + 1):
         f *= i
     return f
+
+
 a = int(input())
 print(factorial(a))
