@@ -1,6 +1,6 @@
 A = input()
 for elem in A:
-    print(elem, end = ' ')
+    print(elem, end=' ')
 # print()
 # B = list(map(int, input().split()))
 # print(B)
